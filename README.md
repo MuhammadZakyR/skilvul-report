@@ -197,6 +197,7 @@ Dalam pembuatan website, diperlukan dua tools penting yaitu :
     <p>Paragraph</p>
 ```
 Hasil :
+
 ![image](https://cdn.discordapp.com/attachments/773086561696612372/1023961110707179580/unknown.png)
 
 #### 2. Tag Content
@@ -208,6 +209,7 @@ Hasil :
   `alt` : Attribute yang digunakan untuk memberikan keterangan gambar, apabila gambar tidak tampil
 
 Hasil :
+
 ![image](https://cdn.discordapp.com/attachments/773086561696612372/1023963985151799416/unknown.png)
 
 - Video
@@ -217,6 +219,7 @@ Hasil :
 > `type` : Attribute untuk memberitahukan tipe konten
 
 Hasil :
+
 ![image](https://user-images.githubusercontent.com/82355658/192154869-0a7e8a47-8b4c-434e-96ff-990d01ba177a.png)
 
 - Table
@@ -248,6 +251,7 @@ Hasil :
   `<td>`  : Tag untuk membuat sel dalam sebuah tabel
   
 Hasil :
+
 ![image](https://cdn.discordapp.com/attachments/773086561696612372/1023969518927753226/unknown.png)
 
 ### E. Deploy
@@ -258,15 +262,19 @@ Deploy merupakan sebuah proses untuk mengupload atau mempublikasi website atau a
 ![image](https://user-images.githubusercontent.com/82355658/192666546-2c853a36-6dca-4a7f-9409-6edf41a8f1dd.png)
 
 - Masuk ke tab Sites, lalu pilih `Import an existing project` atau `drag & drop` seluruh folder html.
+
 ![image](https://user-images.githubusercontent.com/82355658/192665549-c50b1371-0f99-469b-a0b9-e055a90db8ed.png)
 
 - Otorisasi Netlify.
+
 ![image](https://user-images.githubusercontent.com/82355658/192666645-1df918f4-147a-45c6-be13-1ae6af9e2167.png)
 
 - Pilih repository yang ingin dideploy.
+
 ![image](https://user-images.githubusercontent.com/82355658/192666817-0500c3a7-d748-438a-98cf-0b51b1c949c8.png)
 
 - Menyesuaikan konfigurasi.
+
 ![image](https://user-images.githubusercontent.com/82355658/192666843-c98a528a-285d-421f-867e-769f451e3f9d.png)
 
 - Deploy website.
