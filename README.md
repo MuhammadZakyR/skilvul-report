@@ -148,3 +148,125 @@ git clone <URL repositori>
 
 Untuk yang merasa terlalu rumit dengan cara sebelumnya, kita juga dapat secara langsung mendownload repositori tersebut dengan cara mendownload langsung melalui ZIP dan ekstrak folder sesuai dengan lokasi yang diinginkan.
 
+## 3. HTML (_HyperText Markup Language_)
+![image](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/course/Skilvul%20asset%20volume%202-03.jpg)
+
+### A. Definisi
+HTML (_HyperText Markup Language_) merupakan bahasa markup standar yang digunakan untuk membuat dan menyusun halaman dan aplikasi web. Pada halaman website, HTML sendiri berperan sebagai kerangka atau struktur. Dengan HTML, developer dapat menampilkan beberapa konten seperti gambar, video, audio, teks, dan banyak lagi.
+
+### B. Tools
+Dalam pembuatan website, diperlukan dua tools penting yaitu :
+- Browser
+`Google Chrome`, `Mozila Firefox`, `Microsoft Edge`, dll.
+- Text Editor
+`Visual Studio Code`, `Notepad`, `Adobe Dreamweafer`, dll.
+
+### C. Struktur Dokumen HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ...
+</head>
+<body>
+    ...
+</body>
+</html>
+```
+> `<!DOCTYPE>`  : Tag untuk menentukan tipe dokumen <br>
+  `<html>`      : Tag untuk membuat sebuah dokumen HTML <br>
+  `<head>`      : Tag untuk meletakkan metadata <br>
+  `<body>`      : Tag untuk membuat tubuh dari sebuah halaman
+  
+### D. Tag HTML
+```html
+<p>contoh</p>
+```
+> `<p>`     : Tag Pembuka <br>
+  `contoh`  : Konten HTML <br>
+  `</p>`    : Tag Penutup
+  
+#### 1. Tag Text
+```html
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>Paragraph</p>
+```
+Hasil :
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1023961110707179580/unknown.png)
+
+#### 2. Tag Content
+- Gambar
+```html
+    <img src="https://cdn.discordapp.com/attachments/773086561696612372/1023963985151799416/unknown.png" alt="Foto Kucing">
+```
+> `src` : Attribute untuk memberitahukan sumber gambar <br>
+  `alt` : Attribute yang digunakan untuk memberikan keterangan gambar, apabila gambar tidak tampil
+
+Hasil :
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1023963985151799416/unknown.png)
+
+- Video
+```html
+<video><source src="movie.mp4" type="video/mp4" alt="movie"></video>
+```
+> `type` : Attribute untuk memberitahukan tipe konten
+
+Hasil :
+![image](https://user-images.githubusercontent.com/82355658/192154869-0a7e8a47-8b4c-434e-96ff-990d01ba177a.png)
+
+- Table
+```html
+    <table>
+        <thead>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$80</td>
+            </tr>
+          </tbody>
+    </table>
+```
+> `<table>` : Tag untuk membuat dan membungkus tabel <br>
+  `<thead>` : Tag untuk mengelompokan isi header dalam sebuah tabel <br>
+  `<tbody>` : Tag untuk mengelompokan isi tubuh dalam sebuah tabel <br>
+  `<tr>`  : Tag untuk membuat baris dalam sebuah tabel <br>
+  `<th>`  : Tag untuk membuat sebuah sel header tabel <br>
+  `<td>`  : Tag untuk membuat sel dalam sebuah tabel
+  
+Hasil :
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1023969518927753226/unknown.png)
+
+### E. Deploy
+Deploy merupakan sebuah proses untuk mengupload atau mempublikasi website atau aplikasi yang sudah dibuat sedemikian rupa sehingga dapat diakses oleh orang-orang. Dalam kasus deploy website, diperlukan yang namanya hosting dan domain. Hosting diperlukan untuk penyimpanan file atau database yang sudah kita buat kedalam server online sehingga website yang sudah dibuat dapat diakses secara online oleh orang-orang. Domain diperlukan untuk menamai atau memberikan alamat untuk website yang sudah dibuat sehingga pengguna dapat mencari website tersebut sesuai dengan alamat website tersebut. Hosting dan Domain memiliki variant harga yang bermacam-macam. Untuk latihan, developer dapat menggunakan `Netlify` sebagai penyedia layanan hosting untuk static site.
+
+#### Tutorial mendeploy website melalui Netlify
+- Buka website Netlify dengan mengklik link berikut https://www.netlify.com/.
+![image](https://user-images.githubusercontent.com/82355658/192666546-2c853a36-6dca-4a7f-9409-6edf41a8f1dd.png)
+
+- Masuk ke tab Sites, lalu pilih `Import an existing project` atau `drag & drop` seluruh folder html.
+![image](https://user-images.githubusercontent.com/82355658/192665549-c50b1371-0f99-469b-a0b9-e055a90db8ed.png)
+
+- Otorisasi Netlify.
+![image](https://user-images.githubusercontent.com/82355658/192666645-1df918f4-147a-45c6-be13-1ae6af9e2167.png)
+
+- Pilih repository yang ingin dideploy.
+![image](https://user-images.githubusercontent.com/82355658/192666817-0500c3a7-d748-438a-98cf-0b51b1c949c8.png)
+
+- Menyesuaikan konfigurasi.
+![image](https://user-images.githubusercontent.com/82355658/192666843-c98a528a-285d-421f-867e-769f451e3f9d.png)
+
+- Deploy website.
