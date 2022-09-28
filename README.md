@@ -453,6 +453,278 @@ adalah seberapa lama waktu yang diperlukan untuk menjalankan suatu algoritma.
 - **Space Complexity**
 adalah seberapa besar memori yang kita gunakan untuk menjalankan suatu algoritma.
 
-## 6. Javascript
+## 6. JavaScript
 ![image](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/course/Skilvul%20asset%20volume%202-02.jpg)
 
+### A. Definisi
+JavaScript merupakan bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag script. Untuk mengecek bagaimana javascript berjalan pada browser, dapat dilihat dengan cara menekan kombinasi tombol `ctrl` + `shift` + `i` untuk membuka `inspect element` dan kemudian pilih `console`.
+
+### B. Statement dan Syntax JavaScript
+#### 1. Alert()
+Untuk menampilkan sebuah pesan peringatan atau informasi.
+```html
+<button onClick="alert('Notifikasi Alert!')">Tombol Alert</button>
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024680051612057650/unknown.png)
+
+#### 2. Confirm()
+Untuk melakukan konfirmasi dalam melakukan tindakan tertentu.
+```js
+<script>
+    var yakin = confirm("Contoh Notifikasi Confirm?");
+
+    if (yakin) {
+        window.location = "#";
+    } else {
+        document.write("Confirm Dibatalkan");
+    }
+</script>
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024682346869436448/unknown.png)
+
+#### 3. Prompt()
+Untuk mengambil sebuah inputan dari pengguna.
+```js
+<script>
+    var contoh = prompt("Masukkan Inputan?", "");
+    document.write("<p>Isi Inputan adalah "+ contoh +"</p>");
+</script>
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024683663033638912/unknown.png)
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024683833964101712/unknown.png)
+
+#### 4. Console.log()
+Untuk mengecek atau menampilkan nilai atau teks pada console javascript. `console.log()` biasanya digunakan untuk proses debugging pada pemrograman website untuk mengecek apakah fungsi atau code sudah berjalan sesuai dengan apa yang diinginkan atau belum.
+```js
+console.log('nilai yang ingin dicek')
+```
+
+#### 5. Comment
+Untuk memberikan keterangan atau menonaktifkan code program tertentu sehingga tidak dieksekusi ketika program dijalankan. Comment di javascript memiliki dua jenis yaitu `Single Comments` dan `Multiline Comments`.
+- Single Comments
+```js
+//Single Comments
+```
+- Multiline Comments
+```js
+/*
+line 1;
+line 2;
+*/
+```
+
+### C. Tipe Data
+#### 1. Definisi
+Tipe data adalah klasifikasi yang diberikan untuk berbagai macam jenis data yang digunakan dalam programming.
+
+#### 2. Jenis Tipe Data
+a. number => mengandung semua angka termasuk desimal.
+b. string => kumpulan kelompok karakter seperti huruf, angka, dan simbol.
+c. boolean => mempunyai 2 nilai yaitu `TRUE` atau `FALSE`.
+d. null => data yang tidak memiliki nilai.
+e. undefined => tipe data yang merepresentasikan variabel/data yang tidak atau belum terdefinisikan.
+f. object => dapat menyimpan data dengan tipe data apapun.
+
+### D. Variabel
+#### 1. Var
+#### 2. Let
+#### 3. Const
+
+### E. Operator
+#### 1. Operator Aritmatika
+- Tambah(+)
+- Kurang(-)
+- Perkalian(*)
+- Pembagian(/)
+- Modulus(%)
+
+Contoh :
+```js
+var a = 2;
+var b = 3;
+
+// menggunakan operator perkalian
+var c = a * b;
+console.log(c);
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024690607198842920/unknown.png)
+
+#### 2. Operator Perbandingan
+- Nilai kurang dari (<)
+- Nilai lebih dari (>)
+- Nilai kurang dari sama dengan (<=)
+- Nilai lebih dari sama dengan (>=)
+- Nilai sama dengan (===)
+- Nilai tidak sama dengan (!==)
+
+Contoh :
+```js
+<script>
+var a = 3;
+var b = 3;
+
+if(a>b){
+    console.log("Nilai a lebih besar")
+} else if(a<b){
+    console.log("Nilai a lebih kecil")
+} else if(a===b){
+    console.log("Nilai a sama dengan b")
+} else {
+    console.log('Error')
+}
+</script>
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024692625015590983/unknown.png)
+
+#### 3. Operator Logika 
+- AND (&&)
+- OR (||)
+- NOT (!)
+
+Contoh :
+```js
+<script>
+var a = 3;
+var b = 3;
+
+if(a>1 && b>1){
+    console.log("Nilai a dan b lebih besar dari 1")
+} else if(a>1 || b>1){
+    console.log("Nilai a atau b lebih besar dari 1")
+} else if(a != b){
+    console.log("Nilai a tidak sama dengan b")
+} else {
+    console.log('Error')
+}
+</script>
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024694175700090960/unknown.png)
+
+### F. Conditional
+#### 1. Definisi
+Conditional merupakan statemen percabangan yang menggambarkan suatu kondisi. Apakah kondisi tersebut TRUE (benar) atau FALSE (salah). Apabila TRUE maka code akan dijalankan sesuai dengan alurnya, namun apabila FALSE maka akan berjalan sesuai dengan perintah ketika FALSE atau program akan berhenti ditempat apabil kondisi FALSE belum didefinisikan.
+
+#### 2. Jenis
+- TRUTHY AND FALSY ASSIGNMENT
+```js
+<script>
+var a = 3;
+var b = 3;
+
+if(a>1 && b>1){
+    console.log("Nilai a dan b lebih besar dari 1")
+} else if(a>1 || b>1){
+    console.log("Nilai a atau b lebih besar dari 1")
+} else if(a != b){
+    console.log("Nilai a tidak sama dengan b")
+} else {
+    console.log('Error')
+}
+</script>
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024694175700090960/unknown.png)
+
+- SWITCH CASE CONDITIONAL
+```js
+<body>
+<!-- <button id="yakin">Tombol Confirm</button> -->
+<div id="hasil"></div>
+<script>
+var warna = "merah";
+
+switch (warna){
+case "hitam":
+teks = "warna hitam";
+break;
+case "merah":
+teks = "Warna merah";
+break;
+case "hijau":
+teks = "Warna hijau";
+break;
+default:
+teks = "Warna tidak terdeteksi";
+}		
+
+document.getElementById("hasil").innerHTML = teks;
+</script>
+
+</body>
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024698046413557780/unknown.png)
+
+- TERNARY OPERATOR
+```
+let a = true;
+a ? console.log('Sesuai') : console.log('Tidak Sesuai');
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024699450381324369/unknown.png)
+
+### G. Function
+#### 1. Definisi
+Function adalah sebuah blok kode untuk menyelesaikan sebuah task atau fitur.
+```js
+function nama(){
+    return "Output";
+}
+```
+> `function`    : Inisialisasi function
+`nama()`    : Nama function
+`return "Output"`    : Isi function
+
+#### 2. Jenis
+A. Default Parameters
+B. Function Helper
+C. Arrow Function
+D. Short Syntax Function
+- Zero Parameters
+```js
+const functionName = () => {};
+```
+- One Parameter
+```js
+const functionName = paramOne => {};
+```
+- Two or More Parameters
+```js
+const functionName = (paramOne, paramTwo) => {};
+```
+- Single-Line Block
+```js
+const sumNumbers = number => number + number;
+```
+- Multi Line Block
+```js
+const sumNumbers = number => {
+const sum = number + number;
+return sum;
+};
+```
