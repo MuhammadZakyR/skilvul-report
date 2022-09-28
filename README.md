@@ -406,6 +406,8 @@ File HTML
 `baseline` : Item diposisikan di garis dasar wadah
 
 ## 5. Algoritma dan Pseudcode
+![image](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/course/intro-to-coding-1626243909763.jpg)
+
 ### A. Definisi
 - Algoritma
 Algoritma adalah deskripsi berupa step by step yang dibutuhkan untuk menyelesaikan suatu masalah tertentu. Algoritma digunakan untuk menyelesaikan suatu permasalahan tertentu dengan menggunakan cara dan data yang ada. Dalam menyelesaikan suatu masalah bisa menggunakan beberapa macam algoritma yang berbeda.
@@ -446,4 +448,11 @@ Metode untuk menghitung kompleksitas dari potongan kode yang kita buat. Sehingga
 
 #### 3. Kategori
 - **Time Complexity**
+adalah seberapa lama waktu yang diperlukan untuk menjalankan suatu algoritma.
+    
 - **Space Complexity**
+adalah seberapa besar memori yang kita gunakan untuk menjalankan suatu algoritma.
+
+## 6. Javascript
+![image](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/course/Skilvul%20asset%20volume%202-02.jpg)
+
