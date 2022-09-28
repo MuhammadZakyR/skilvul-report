@@ -406,3 +406,44 @@ File HTML
 `baseline` : Item diposisikan di garis dasar wadah
 
 ## 5. Algoritma dan Pseudcode
+### A. Definisi
+- Algoritma
+Algoritma adalah deskripsi berupa step by step yang dibutuhkan untuk menyelesaikan suatu masalah tertentu. Algoritma digunakan untuk menyelesaikan suatu permasalahan tertentu dengan menggunakan cara dan data yang ada. Dalam menyelesaikan suatu masalah bisa menggunakan beberapa macam algoritma yang berbeda.
+
+Contoh :
+Untuk mendapatkan sebuah nilai 10 bisa didapatkan dengan cara sebagai berikut.
+1. 10 x 1 = 10
+2. 9 + 1 = 10
+3. 15 - 5 = 10
+
+Semua cara atau algoritma di atas sama-sama bernilai benar.
+
+- Pseudcode
+Pseudocode atau kode semu dapat diartikan sebagai deskripsi dari algoritma pemrograman yang dituliskan secara sederhana dibandingkan dengan sintaksis bahasa pemrograman. Tujuannya, agar lebih mudah dibaca dan dipahami manusia.
+```
+    Menentukan sebuah bilangan adalah ganjil atau genap
+    Judul
+    Program ganjil_genap
+    
+    Deskripsi
+    var bilangan : integer
+    
+    Implementasi
+    READ bilangan
+    IF (bilangan modulus 2 = 0) THEN
+        PRINT “genap”
+    ELSE
+    PRINT “ganjil”
+    ENDIF
+```
+
+### B. Big O Notatiom
+#### 1. Definisi
+Sebuah cara atau metode untuk melakukan analisa terhadap sebuah algoritma pemrograman terhadap waktu eksekusi. Tentang seberapa efisien dan kompleksitas barisan kode dalam dimensi waktu.
+
+#### 2. Tujuan
+Metode untuk menghitung kompleksitas dari potongan kode yang kita buat. Sehingga dapat menumbuhkan kesadaran kita untuk mencari alternatif yang lebih baik sebelum data semakin besar dan berdampak kepada performa aplikasi yang kita buat.
+
+#### 3. Kategori
+- **Time Complexity**
+- **Space Complexity**
