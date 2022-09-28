@@ -17,10 +17,12 @@ Berikut adalah beberapa contoh aplikasi yang berbasis CLI :
 
 ### C. Terminal Emulator
 ![image](https://cdn.discordapp.com/attachments/773086561696612372/1024603958293037136/unknown.png)
+
 Terminal Emulator merupakan sebuah program atau media yang menghubungkan antara pengguna dan komputer. Di terminal emulator inilah pengguna dapat mengetikan atau memberikan perintah pada komputer.
 
 ### D. File System Structure
 ![image](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/tree.JPG)
+
 Sebuah sistem file yang mengatur bagaimana data dapat disimpan dalam sistem operasi.
 
 ### E. Command / Perintah CLI
