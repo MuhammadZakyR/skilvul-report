@@ -278,3 +278,131 @@ Deploy merupakan sebuah proses untuk mengupload atau mempublikasi website atau a
 ![image](https://user-images.githubusercontent.com/82355658/192666843-c98a528a-285d-421f-867e-769f451e3f9d.png)
 
 - Deploy website.
+
+## 4. CSS (_Cascading Style Sheets_)
+![image](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/course/Skilvul%20asset%20volume%202-04.jpg)
+
+### A. Definisi
+CSS (_Cascading Style Sheets_) merupakan bahasa yang digunakan untuk menentukan dan menghias tampilan dan format halaman pada website dan aplikasi web. Dengan CSS, developer dapat mengubah dan mengatur warna, font, tata letak, dan tampilan pada konten-konten.
+
+#### B. CSS Syntax
+```css
+selector{property: value;}
+```
+> `selector`    : Tag atau element HTML yang akan diinisialisasikan
+`property`  : Attribute yang akan dikustomisasi nilainya
+`value` : Nilai yang diberikan untuk property yang di kustomisasi pada selector tersebut
+
+### C. Penggunaan CSS
+#### 1. Inline CSS
+Meyisipkan kode CSS langsung di dalam halaman HTML dengan cara menambahkan attribute style pada element HTML secara langsung. Cara ini digunakan untuk mengatur komponen CSS pada element HTML tertentu saja secara spesifik.
+- Contoh :
+```css
+<h1 style="color:blue">Contoh Inline CSS</h1>
+```
+- Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024649644585783427/unknown.png)
+
+#### 2. Internal CSS
+Menyusun atau membuat kustomisasi CSS di dalam tag `<style>` yang diletakkan di dalam tag `<head>`. Cara ini digunakan untuk mengatur komponen CSS sesuai dengan kelompok element HTML tertentu yang ada pada satu halaman website tersebut.
+- Contoh :
+```css
+<head>
+    <style>
+        h2 {color: red;}
+    </style>
+</head>
+<body>
+    <h1 style="color:blue">Contoh Inline CSS</h1>
+    <h2>Contoh Internal CSS</h2>
+</body>
+```
+- Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024652544972181514/unknown.png)
+
+#### 3. Eksternal CSS
+Menyusun atau membuat kustomisasi CSS dengan cara membuat file CSS terpisah dengan file HTML. Kemudian untuk menautkannya dengan halaman atau file HTML dapat dilakukan dengan cara menambahkan tag atau element `<link>` yang diletakkan di dalam tag `<head>`. Cara ini digunakan untuk mengatur komponen CSS sesuai dengan kelompok element HTML tertentu yang ada pada beberapa halaman website yang berbeda.
+- Contoh :
+1. File CSS `style.css`
+```css
+h3{color: green;}
+```
+2. File HTML `index.html`
+```html
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {color: red;}
+    </style>
+</head>
+<body>
+    <h1 style="color:blue">Contoh Inline CSS</h1>
+    <h2>Contoh Internal CSS</h2>
+    <h3>Contoh Eksternal CSS</h3>
+</body>
+```
+- Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024655032332857514/unknown.png)
+
+### D. Responsive Design
+Responsive web design atau desain web responsif adalah sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna.
+
+### E. Flexbox
+Flexbox merupakan salah satu cara untuk menata, menyelaraskan dan mendistribusikan ruang di antara item tertentu dalam satu wadah konsten dengan lebih efisien. Ada dua komponen utama pada layout Flexbox yaitu `container` dan `item`.
+
+#### Langkah-langkah pembuatan Flexbox
+1. Membuat `Container`
+File CSS
+```css
+.container{display: flex;}
+```
+File HTML
+```html
+<section class="container">
+    <div>Home</div>
+    <div>About</div>
+    <div>Contact Us</div>
+</section>
+```
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024663105982189688/unknown.png)
+
+2. Mengatur `Justify Content` dan `Align Items`
+Justify-content dan align-items adalah dua properti CSS yang membantu kita mendistribusikan item-item di dalam container dengan mengontrol bagaimana item diposisikan secara `horizontal` dan `vertikal`.
+File CSS
+```css
+.container{
+display: flex;
+justify-content: center;
+}
+```
+File HTML
+```html
+<section class="container">
+    <div>Home</div>
+    <div>About</div>
+    <div>Contact Us</div>
+</section>
+```
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1024662999094546472/unknown.png)
+
+- Beberapa jenis nilai pada `justify-content`
+> `flex-start` (default)    : Nilai bawaan. Item diposisikan di awal wadah <br>
+`flex-end`  : Item diposisikan di ujung wadah <br>
+`center`    : Item diposisikan di tengah wadah <br>
+`space-between` : Item akan memiliki ruang di antara item yang lain <br>
+`space-around`  : Item akan memiliki ruang sebelum, di antara, dan setelahnya <br>
+`space-evenly`  : Item akan memiliki ruang yang sama di sekitar mereka
+
+- Beberapa jenis nilai pada `align-items`
+> `stretch` (default)    : Item diregangkan agar sesuai dengan wadahnya <br>
+`center`    : Item diposisikan di tengah wadah <br>
+`flex-start`  : Item diposisikan di awal wadah <br>
+`flex-end`  : Item diposisikan di ujung wadah <br>
+`baseline` : Item diposisikan di garis dasar wadah
+
+## 5. Algoritma dan Pseudcode
