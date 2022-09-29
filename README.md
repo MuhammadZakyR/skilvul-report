@@ -289,8 +289,8 @@ CSS (_Cascading Style Sheets_) merupakan bahasa yang digunakan untuk menentukan 
 ```css
 selector{property: value;}
 ```
-> `selector`    : Tag atau element HTML yang akan diinisialisasikan
-`property`  : Attribute yang akan dikustomisasi nilainya
+> `selector`    : Tag atau element HTML yang akan diinisialisasikan <br>
+`property`  : Attribute yang akan dikustomisasi nilainya <br>
 `value` : Nilai yang diberikan untuk property yang di kustomisasi pada selector tersebut
 
 ### C. Penggunaan CSS
@@ -409,8 +409,7 @@ File HTML
 ![image](https://skilvul-prod-01.s3.ap-southeast-1.amazonaws.com/course/intro-to-coding-1626243909763.jpg)
 
 ### A. Definisi
-- Algoritma
-Algoritma adalah deskripsi berupa step by step yang dibutuhkan untuk menyelesaikan suatu masalah tertentu. Algoritma digunakan untuk menyelesaikan suatu permasalahan tertentu dengan menggunakan cara dan data yang ada. Dalam menyelesaikan suatu masalah bisa menggunakan beberapa macam algoritma yang berbeda.
+- Algoritma adalah deskripsi berupa step by step yang dibutuhkan untuk menyelesaikan suatu masalah tertentu. Algoritma digunakan untuk menyelesaikan suatu permasalahan tertentu dengan menggunakan cara dan data yang ada. Dalam menyelesaikan suatu masalah bisa menggunakan beberapa macam algoritma yang berbeda.
 
 Contoh :
 Untuk mendapatkan sebuah nilai 10 bisa didapatkan dengan cara sebagai berikut.
@@ -420,9 +419,8 @@ Untuk mendapatkan sebuah nilai 10 bisa didapatkan dengan cara sebagai berikut.
 
 Semua cara atau algoritma di atas sama-sama bernilai benar.
 
-- Pseudcode
-Pseudocode atau kode semu dapat diartikan sebagai deskripsi dari algoritma pemrograman yang dituliskan secara sederhana dibandingkan dengan sintaksis bahasa pemrograman. Tujuannya, agar lebih mudah dibaca dan dipahami manusia.
-```
+- Pseudcode atau kode semu dapat diartikan sebagai deskripsi dari algoritma pemrograman yang dituliskan secara sederhana dibandingkan dengan sintaksis bahasa pemrograman. Tujuannya, agar lebih mudah dibaca dan dipahami manusia.
+```js
     Menentukan sebuah bilangan adalah ganjil atau genap
     Judul
     Program ganjil_genap
@@ -529,10 +527,15 @@ Tipe data adalah klasifikasi yang diberikan untuk berbagai macam jenis data yang
 
 #### 2. Jenis Tipe Data
 a. number => mengandung semua angka termasuk desimal.
-b. string => kumpulan kelompok karakter seperti huruf, angka, dan simbol.
+
+b. string => kumpulan kelompok karakter seperti huruf, angka, dan simbol. 
+
 c. boolean => mempunyai 2 nilai yaitu `TRUE` atau `FALSE`.
+
 d. null => data yang tidak memiliki nilai.
+
 e. undefined => tipe data yang merepresentasikan variabel/data yang tidak atau belum terdefinisikan.
+
 f. object => dapat menyimpan data dengan tipe data apapun.
 
 ### D. Variabel
@@ -696,14 +699,17 @@ function nama(){
     return "Output";
 }
 ```
-> `function`    : Inisialisasi function
-`nama()`    : Nama function
+> `function`    : Inisialisasi function <br>
+`nama()`    : Nama function <br>
 `return "Output"`    : Isi function
 
 #### 2. Jenis
 A. Default Parameters
+
 B. Function Helper
+
 C. Arrow Function
+
 D. Short Syntax Function
 - Zero Parameters
 ```js
