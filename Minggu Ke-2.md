@@ -180,3 +180,18 @@ Setiap properti memiliki atribut yang sesuai. Setiap atribut diakses secara inte
 
 ## 2. DOM (Document Object Model)
 ![image](https://skilvul.com/static/nav-path.svg)
+
+Model Objek Dokumen W3C (DOM) adalah platform dan antarmuka netral bahasa yang memungkinkan program dan skrip untuk mengakses dan memperbarui konten, struktur, dan gaya dokumen secara dinamis. Dengan DOM, JavaScript mendapatkan semua kebutuhan untuk membuat HTML dinamis.
+
+### A. DOM HTML
+_HTML DOM_ adalah model objek standar dan antarmuka pemrograman untuk HTML.
+- Elemen HTML sebagai objek
+- Properti dari semua elemen HTML
+- Metode untuk mengakses semua elemen HTML
+- Acara untuk semua elemen HTML
+> DOM HTML adalah standar untuk mendapatkan, mengubah, menambah, atau menghapus elemen HTML.
+
+### B. Interface DOM
+_HTML DOM_ dapat diakses dengan _JavaScript_ (dan dengan bahasan pemograman lainnya). Semua element HTML pada DOM didefinisikan sebagai objek. Antarmuka pemrograman adalah properti dan metode dari setiap objek. Properti adalah nilai yang bisa Anda dapatkan atau atur (seperti mengubah konten elemen HTML). Metode adalah tindakan yang dapat Anda lakukan (seperti menambah atau menghapus elemen HTML).
+
+### C. Elemen DOM HTML JavaScript
