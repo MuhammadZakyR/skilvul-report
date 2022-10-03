@@ -6,7 +6,7 @@
 ### A. JS Scope
 Scope merupakan konsep dalam flow data variabel yang mana dengan scope dapat menentukan suatu variabel bisa diakses pada scope tertentu atau tidak.
 
-#### **1. Jenis Scope**
+#### **Jenis Scope**
 #### - Block Scope
 Block scope adalah cakupan kode yang hanya terbatas pada block code saja. Block code adalah area yang ada di antara kurung kurawal `{` dan `}`.
 
@@ -91,3 +91,39 @@ Hasil :
 ![image](https://cdn.discordapp.com/attachments/773086561696612372/1026383645193273354/unknown.png)
 
 Variabel yang dibuat menggunakan keyword `var` akan menjadi local variabel di dalam fungsi.
+
+### B. JS Function
+Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task / fitur yang mana penggunaannya dapat digunakan berkali-kali dengan cara memanggil function tersebut untuk dijalankan.
+
+#### 1. Pembuatan Function
+```js
+function greeting(){
+  return "Halo! ini dari function greeting";
+}
+```
+
+#### 2. Pemanggilan Function
+```js
+greeting(); //Memanggil function greeting
+console.log(greeting())
+```
+
+Hasil :
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1026387548681027615/unknown.png)
+
+#### 4. Parameter dan Argumen
+Dengan parameter, function dapat menerima sebuah inputan data dan menggunakannya untuk melakukan task/tugas. Saat membuat function/fitur, kita harus tahu data-data yang dibutuhkan. Misalnya saat membuat function penambahan 2 buah nilai. Maka data yang dibutuhkan adalah 2 buah nilai tersebut. Kemudian, Argumen adalah nilai yang digunakan saat memanggil function. Jumlah argumen harus sama dengan jumlah parameternya. Maka jika di function penambahan ada 2 parameter nilai saat membuat function. Saat memanggil function kita gunakan 2 buah nilai argumen.
+
+Contoh :
+```js
+function perkalian(a, b){
+  return a*b;
+}
+console.log(perkalian(8, 6))
+
+//a dan b merupakan parameter dari function perkalian
+//8 dan 6 merupakan argument dari function perkalian
+```
+
+### C. ERROR & DEBUGGING
