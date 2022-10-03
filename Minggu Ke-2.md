@@ -127,7 +127,7 @@ console.log(perkalian(8, 6))
 ```
 
 ### C. Error dan Debugging
-#### **1. Jenis Error Message**
+#### **1. Error Message**
 #### a. Reference Errors (Kesalahan Referensi)
 Ketika mencoba menggunakan variabel yang belum dideklarasikan, maka akan mendapatkan pesan kesalahan seperti berikut pada console log.
 ```js
@@ -136,3 +136,47 @@ Uncaught ReferenceError: foo is not defined
 Untuk mengatasi permasalahan ini kita hanya perlu melakukan deklarasi terlebih dahulu variabel tersebut sebelum variabel dipanggil atau digunakan.
 
 #### b. Syntax Errors (Kesalahan Syntaks)
+Syntax error adalah kesalahan penulisan kode dalam sebuah program. Biasanya salah memasukkan angka, kata, atau tanda baca sehingga format atau informasi tersebut tidak bisa dikenali oleh sistem komputer. Seperti ketika mencoba mengurai objek yang tidak valid menggunakan JSON.parse. Hal ini akan memunculkan pesan error pada console log seperti berikut.
+```js
+Uncaught SyntaxError: "[object Object]" is not valid JSON
+```
+Untuk mengatasi permasalahan ini kita dapat memperbaiki sintaks dimana objek JSON tersebut ingin dijalankan.
+
+#### c. Range Errors
+Range error adalah kesalahan yang terjadi ketika objek dengan panjang tertentu tidak valid. Hal ini akan memunculkan pesan error pada console log seperti berikut.
+```js
+Uncaught RangeError: Invalid array length
+```
+Untuk mengatasi permasalahan ini kita dapat menyesuaikan panjang dari objek yang diinginkan sesuai dengan panjang yang akan diberikan.
+
+#### d. Type Errors
+Kesalahan ini muncul ketika jenis (angka, string dll) yang kita coba gunakan atau akses tidak kompatibel seperti mengakses properti dalam jenis variabel yang tidak ditentukan. Untuk mengatasi permasalahan ini kita dapat menyesuaikan jenis data yang kita inginkan dengan jenis data yang sesuai atau yang sudah dideklarasikan.
+
+#### **2. Debugging**
+Untuk mendebug kode JavaScript adalah dengan cara menggunakan console.log() variabel yang ingin kita periksa. Untuk melihat hasilnya kita bisa menggunakan Inspect pada browser yang kita miliki.
+
+### D. Tipe dan Struktur Data
+JavaScript adalah bahasa dinamis dengan tipe dinamis. Variabel dalam JS tidak secara langsung terkait dengan jenis nilai tertentu dan variabel apapun dapat diberi nilai dari semua jenis.
+
+#### **1. Jenis Tipe Data JavaScript**
+#### a. Nilai primitif
+Nilai primitif adalah tipe data yang tidak dapat diubah diwakili pada tingkat bahasa terendah.
+Contoh :
+- Boolean
+- Null
+- Undefined
+- Number
+- Bigint
+- String
+- Types of Symbol
+
+#### b. Object (Kumpulan Properti)
+Dalam ilmu komputer, object adalah nilai dalam memori yang mungkin dirujuk oleh pengidentifikasi.
+Ada dua jenis properti objek:
+- properti data
+- properti pengakses
+
+Setiap properti memiliki atribut yang sesuai. Setiap atribut diakses secara internal oleh mesin JavaScript, tetapi kita juga dapat mengaturnya melalui Object.defineProperty(), atau membacanya melalui Object.getOwnPropertyDescriptor().
+
+## 2. DOM (Document Object Model)
+![image](https://skilvul.com/static/nav-path.svg)
