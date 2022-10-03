@@ -126,4 +126,13 @@ console.log(perkalian(8, 6))
 //8 dan 6 merupakan argument dari function perkalian
 ```
 
-### C. ERROR & DEBUGGING
+### C. Error dan Debugging
+#### **1. Jenis Error Message**
+#### a. Reference Errors (Kesalahan Referensi)
+Ketika mencoba menggunakan variabel yang belum dideklarasikan, maka akan mendapatkan pesan kesalahan seperti berikut pada console log.
+```js
+Uncaught ReferenceError: foo is not defined
+```
+Untuk mengatasi permasalahan ini kita hanya perlu melakukan deklarasi terlebih dahulu variabel tersebut sebelum variabel dipanggil atau digunakan.
+
+#### b. Syntax Errors (Kesalahan Syntaks)
