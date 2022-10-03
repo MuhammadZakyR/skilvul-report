@@ -133,6 +133,7 @@ Ketika mencoba menggunakan variabel yang belum dideklarasikan, maka akan mendapa
 ```js
 Uncaught ReferenceError: foo is not defined
 ```
+
 Untuk mengatasi permasalahan ini kita hanya perlu melakukan deklarasi terlebih dahulu variabel tersebut sebelum variabel dipanggil atau digunakan.
 
 #### b. Syntax Errors (Kesalahan Syntaks)
@@ -140,6 +141,7 @@ Syntax error adalah kesalahan penulisan kode dalam sebuah program. Biasanya sala
 ```js
 Uncaught SyntaxError: "[object Object]" is not valid JSON
 ```
+
 Untuk mengatasi permasalahan ini kita dapat memperbaiki sintaks dimana objek JSON tersebut ingin dijalankan.
 
 #### c. Range Errors
@@ -147,6 +149,7 @@ Range error adalah kesalahan yang terjadi ketika objek dengan panjang tertentu t
 ```js
 Uncaught RangeError: Invalid array length
 ```
+
 Untuk mengatasi permasalahan ini kita dapat menyesuaikan panjang dari objek yang diinginkan sesuai dengan panjang yang akan diberikan.
 
 #### d. Type Errors
@@ -195,3 +198,65 @@ _HTML DOM_ adalah model objek standar dan antarmuka pemrograman untuk HTML.
 _HTML DOM_ dapat diakses dengan _JavaScript_ (dan dengan bahasan pemograman lainnya). Semua element HTML pada DOM didefinisikan sebagai objek. Antarmuka pemrograman adalah properti dan metode dari setiap objek. Properti adalah nilai yang bisa Anda dapatkan atau atur (seperti mengubah konten elemen HTML). Metode adalah tindakan yang dapat Anda lakukan (seperti menambah atau menghapus elemen HTML).
 
 ### C. Elemen DOM HTML JavaScript
+#### **1. Mengambil Element HTML**
+#### a. Mengambil Element HTML dengan Id
+```js
+document.getElementById("id-name")
+```
+
+#### b. Mengambil Element HTML dengan Tag
+```js
+document.getElementByTagName("tage-name")
+```
+
+#### c. Mengambil Element HTML dengan Class
+```js
+document.getElementByClassName("class-name")
+```
+
+#### d. Mengambil Element HTML dengan CSS Selector
+```js
+document.querySelectorAll("tag-name.id-name")
+```
+
+#### e. Mengambil Element HTML dengan Object HTML
+```js
+document.getElementById("id-name").innerHTML
+```
+Macam-macam Object HTML
+- document.anchors
+- document.body
+- document.documentElement
+- document.embeds
+- document.forms
+- document.head
+- document.images
+- document.links
+- document.scripts
+
+#### **2. Mengedit HTML**
+#### a. Mengedit Konten HTML
+```js
+document.getElementById(id).innerHTML = new HTML();
+```
+
+#### b. Mengedit Nilai Attribute
+```js
+document.getElementById(id).attribute = new value;
+```
+#### c. Membuat Konten HTML yang Dinamis
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+    <script>
+      document.getElementById("demo").innerHTML = "Date : " + Date();
+    </script>
+  </body>
+</html>
+```
+
+Hasil : 
+
+![image](https://cdn.discordapp.com/attachments/773086561696612372/1026417693148074065/unknown.png)
