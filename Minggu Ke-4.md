@@ -244,6 +244,7 @@ CSS Grid Layout menawarkan sistem tata letak berbasis grid, dengan baris dan kol
 
 ## **4. Bootstrap**
 ![image](https://forum.skilvul.com/uploads/default/original/2X/5/5d739548c9d6c7ddbacb43996e1a27b25974bba1.png)
+
 Bootstrap adalah framework HTML, CSS, dan JavaScript paling populer untuk membuat situs web yang responsif dan mobile-first websites. Bootstrap 5 adalah versi terbaru dari Bootstrap; dengan komponen baru, stylesheet yang lebih cepat, dan lebih responsif. Perbedaan utama antara Bootstrap 5 dan Bootstrap 3 & 4, adalah bahwa Bootstrap 5 telah beralih ke JavaScript, bukan jQuery.
 
 Ada dua cara untuk mulai menggunakan Bootstrap 5 di situs web Anda sendiri:
