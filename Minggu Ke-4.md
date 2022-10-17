@@ -274,7 +274,7 @@ Bootstrap membutuhkan elemen untuk membungkus konten situs. Container digunakan 
 1. Class .container menyediakan container lebar tetap yang responsif.
 2. Class .container-fluid menyediakan container lebar penuh, mencakup seluruh lebar viewport.
 
-![image]((https://i.stack.imgur.com/aXknZ.png)
+![image](https://i.stack.imgur.com/aXknZ.png)
 Secara default, container memiliki padding kiri dan kanan, tanpa padding atas atau bawah. Oleh karena itu, gunakan spacing utilities, seperti extra padding dan margin agar terlihat lebih baik.
 ```html
 <div class="container pt-5"></div>
