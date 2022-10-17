@@ -274,7 +274,7 @@ Bootstrap membutuhkan elemen untuk membungkus konten situs. Container digunakan 
 1. Class .container menyediakan container lebar tetap yang responsif.
 2. Class .container-fluid menyediakan container lebar penuh, mencakup seluruh lebar viewport.
 
-![image]([img-5.png](https://i.stack.imgur.com/aXknZ.png))
+![image]((https://i.stack.imgur.com/aXknZ.png)
 Secara default, container memiliki padding kiri dan kanan, tanpa padding atas atau bawah. Oleh karena itu, gunakan spacing utilities, seperti extra padding dan margin agar terlihat lebih baik.
 ```html
 <div class="container pt-5"></div>
@@ -296,7 +296,7 @@ Kita juga bisa menggunakan default breakpoint untuk menentukan kapan container h
 
 ### **C. Bootstrap Grid**
 Bootstrap's grid system dibangun dengan flexbox dan memungkinkan hingga 12 kolom di seluruh halaman. Jika tidak ingin menggunakan 12 kolom satu per satu, kita dapat mengelompokkan kolom bersama-sama untuk membuat kolom yang lebih lebar.
-![image]([https://linuxhint.com/wp-content/uploads/2022/04/b.jpg](https://coursework.vschool.io/content/images/2015/07/boot.png)
+![image](https://coursework.vschool.io/content/images/2015/07/boot.png)
 Sistem grid responsif dan kolom akan diatur ulang secara otomatis tergantung pada ukuran layar. Pastikan jumlahnya bertambah hingga 12 atau kurang. Berikut ini adalah struktur dasar dari grid Bootstrap 5:
 ```html
 <!-- Control the column width, and how they should appear on different devices -->
