@@ -1,4 +1,4 @@
-# **Rangkuman Minggu Ke-3**
+# **Rangkuman Minggu Ke-6**
 
 ## A. REACT JS
 
