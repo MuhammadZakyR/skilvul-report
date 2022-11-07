@@ -1,4 +1,4 @@
-# **Rangkuman Minggu Ke-6**
+# **Rangkuman Minggu Ke-7**
 
 ## A. Prop Types
 ### 1. Definisi
