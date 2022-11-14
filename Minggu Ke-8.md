@@ -48,10 +48,10 @@
 - Testing terbagi menjadi 2 yaitu 
 
     - Automated
-    Yang dimaksud dengan automated atau otomatis adalah, dengan menjalankan sebuah code untuk memeriksa apakah ekspetasi dan susunan code sudah terjalankan dengan baik </br> 
+    <br>Yang dimaksud dengan automated atau otomatis adalah, dengan menjalankan sebuah code untuk memeriksa apakah ekspetasi dan susunan code sudah terjalankan dengan baik </br> 
 
     - Manual
-    Yang dimaksud dengan Manual Testing adalah, dengan melihat menggunakan browser pada kontent yang telah disusun. </br>
+    <br>Yang dimaksud dengan Manual Testing adalah, dengan melihat menggunakan browser pada kontent yang telah disusun. </br>
   
 Automated Testing terbagi menjadi 3 
 
