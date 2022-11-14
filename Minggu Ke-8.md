@@ -15,7 +15,7 @@
 
 - React.createContext() 
 
-    ```
+    ```js
     import React from "react";
 
     const MyContext = React.createContext()
@@ -48,19 +48,10 @@
 - Testing terbagi menjadi 2 yaitu 
 
     - Automated
-    ```
-
     Yang dimaksud dengan automated atau otomatis adalah, dengan menjalankan sebuah code untuk memeriksa apakah ekspetasi dan susunan code sudah terjalankan dengan baik 
 
-    ```
- 
     - Manual
-
-    ``` 
-
     Yang dimaksud dengan Manual Testing adalah, dengan melihat menggunakan browser pada kontent yang telah disusun
-
-    ```
   
 Automated Testing terbagi menjadi 3 
 
